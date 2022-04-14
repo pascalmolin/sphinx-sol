@@ -13,9 +13,9 @@ version = readfile("VERSION")[0].strip()
 requires = ['Sphinx>=0.6']
 
 setup(
-    name='sphinx-${name}',
+    name='sphinx-sol',
     version='0.1',
-    url='https://github.com/pascalmolin/sphinx',
+    url='https://github.com/pascalmolin/sphinx-sol',
     license='MIT',
     author='Pascal Molin',
     author_email='molin.maths@gmail.com',
@@ -31,7 +31,6 @@ setup(
         'Operating System :: OS Independent',
         'Programming Language :: Python',
         'Framework :: Sphinx :: Extension',
-        #'Framework :: Sphinx :: Theme',
         'Topic :: Documentation',
         'Topic :: Utilities',
     ],
